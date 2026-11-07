@@ -1,1 +1,67 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgUGxheSwgUGF1c2UgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgZm90byBmcm9tICJAL2Fzc2V0cy9mb3RvLXByb2ZpbC5qcGcuYXNzZXQuanNvbiI7CmltcG9ydCBtdXNpayBmcm9tICJAL2Fzc2V0cy9tdXNpay5tNGEuYXNzZXQuanNvbiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi8iKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogIk1lbWJlciDOo86bIiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICJTZW9yYW5nIGVkaXRvciBtb2JpbGUgeWFuZyBiaWtpbiBjb21wb3NpdGluZyBtYW5nYSBlZGl0LiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIk1lbWJlciDOo86bIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAiU2VvcmFuZyBlZGl0b3IgbW9iaWxlIHlhbmcgYmlraW4gY29tcG9zaXRpbmcgbWFuZ2EgZWRpdC4iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IEluZGV4LAp9KTsKCmZ1bmN0aW9uIEluZGV4KCkgewogIGNvbnN0IGF1ZGlvUmVmID0gdXNlUmVmPEhUTUxBdWRpb0VsZW1lbnQgfCBudWxsPihudWxsKTsKICBjb25zdCBbcGxheWluZywgc2V0UGxheWluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHVzZUVmZmVjdCgoKSA9PiAoKSA9PiBhdWRpb1JlZi5jdXJyZW50Py5wYXVzZSgpLCBbXSk7CgogIGNvbnN0IHRvZ2dsZSA9ICgpID0+IHsKICAgIGlmICghYXVkaW9SZWYuY3VycmVudCkgewogICAgICBhdWRpb1JlZi5jdXJyZW50ID0gbmV3IEF1ZGlvKG11c2lrLnVybCk7CiAgICAgIGF1ZGlvUmVmLmN1cnJlbnQubG9vcCA9IHRydWU7CiAgICB9CiAgICBpZiAocGxheWluZykgewogICAgICBhdWRpb1JlZi5jdXJyZW50LnBhdXNlKCk7CiAgICAgIHNldFBsYXlpbmcoZmFsc2UpOwogICAgfSBlbHNlIHsKICAgICAgYXVkaW9SZWYuY3VycmVudC5wbGF5KCkudGhlbigoKSA9PiBzZXRQbGF5aW5nKHRydWUpKS5jYXRjaCgoKSA9PiBzZXRQbGF5aW5nKGZhbHNlKSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCB0ZXh0LWZvcmVncm91bmQiPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcHgtNSBweS00IGxnOnB4LTEwIj4KICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYmxhY2sgdHJhY2tpbmctdGlnaHQgbGc6dGV4dC0zeGwiPs6jzps8L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIGxnOnRleHQtYmFzZSI+TWVtYmVyPC9zcGFuPgogICAgICA8L2hlYWRlcj4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIGZsZXggbWF4LXctWzE4MDBweF0gZmxleC1jb2wgZ2FwLTYgcHgtNSBweS02IGxnOmdyaWQgbGc6Z3JpZC1jb2xzLVthdXRvX21pbm1heCgwLDFmcildIGxnOml0ZW1zLWNlbnRlciBsZzpnYXAtOCBsZzpweC0xMCBsZzpweS04Ij4KICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InJvdW5kZWQtM3hsIGJnLXByaW1hcnkgcHgtNSBweS0xNiB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBsZzpvcmRlci0yIGxnOnB4LTEwIGxnOnB5LTEyIj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVzdCI+TWVtYmVyIM6jzps8L3A+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC00IHRleHQtM3hsIGZvbnQtYmxhY2sgbGVhZGluZy10aWdodCBtZDp0ZXh0LTV4bCBsZzp0ZXh0LTR4bCI+CiAgICAgICAgICAgIFNlb3JhbmcgZWRpdG9yIG1vYmlsZSB5YW5nIGtlcmphYW5ueWEgdGlhcCBoYXJpIGJpa2luIGNvbXBvc2l0aW5nIG1hbmdhIGVkaXQgc2FtcGFpIG1pcmlwIFNldGVsYWggRWZlayAoIHdlbnlhaCBhZSApCiAgICAgICAgICA8L2gxPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXt0b2dnbGV9CiAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtOCBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJnLXByaW1hcnktZm9yZWdyb3VuZCBweC02IHB5LTMgZm9udC1ib2xkIHRleHQtZm9yZWdyb3VuZCBob3ZlcjpvcGFjaXR5LTkwIgogICAgICAgICAgPgogICAgICAgICAgICB7cGxheWluZyA/IDxQYXVzZSBjbGFzc05hbWU9ImgtNSB3LTUiIC8+IDogPFBsYXkgY2xhc3NOYW1lPSJoLTUgdy01IiAvPn0KICAgICAgICAgICAge3BsYXlpbmcgPyAiSmVkYSIgOiAiUHV0YXIifQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icm91bmRlZC0zeGwgYmctcHJpbWFyeSBwLTQgbGc6b3JkZXItMSI+CiAgICAgICAgICA8aW1nIHNyYz17Zm90by51cmx9IGFsdD0iRm90byBwcm9maWwiIGNsYXNzTmFtZT0ibXgtYXV0byBoLWF1dG8gdy1mdWxsIHJvdW5kZWQtMnhsIGxnOmgtWzM4dmhdIGxnOnctYXV0byIgLz4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LWNlbnRlciBmb250LWJvbGQgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQiPkZvdG88L3A+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICA8L21haW4+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useRef, useState } from "react";
+import { Play, Pause } from "lucide-react";
+import foto from "@/assets/foto-profil.jpg.asset.json";
+import musik from "@/assets/musik.m4a.asset.json";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Member ΣΛ" },
+      { name: "description", content: "Seorang editor mobile yang bikin compositing manga edit." },
+      { property: "og:title", content: "Member ΣΛ" },
+      { property: "og:description", content: "Seorang editor mobile yang bikin compositing manga edit." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: Index,
+});
+
+function Index() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [playing, setPlaying] = useState(false);
+
+  useEffect(() => () => audioRef.current?.pause(), []);
+
+  const toggle = () => {
+    if (!audioRef.current) {
+      audioRef.current = new Audio(musik.url);
+      audioRef.current.loop = true;
+    }
+    if (playing) {
+      audioRef.current.pause();
+      setPlaying(false);
+    } else {
+      audioRef.current.play().then(() => setPlaying(true)).catch(() => setPlaying(false));
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <header className="flex items-center justify-between border-b border-border px-5 py-4 lg:px-10">
+        <span className="text-2xl font-black tracking-tight lg:text-3xl">ΣΛ</span>
+        <span className="text-sm font-semibold text-muted-foreground lg:text-base">Member</span>
+      </header>
+      <main className="mx-auto flex max-w-[1800px] flex-col gap-6 px-5 py-6 lg:grid lg:grid-cols-[auto_minmax(0,1fr)] lg:items-center lg:gap-8 lg:px-10 lg:py-8">
+        <section className="rounded-3xl bg-primary px-5 py-16 text-primary-foreground lg:order-2 lg:px-10 lg:py-12">
+          <p className="text-sm font-bold uppercase tracking-widest">Member ΣΛ</p>
+          <h1 className="mt-4 text-3xl font-black leading-tight md:text-5xl lg:text-4xl">
+            Seorang editor mobile yang kerjaannya tiap hari bikin compositing manga edit sampai mirip Setelah Efek ( wenyah ae )
+          </h1>
+          <button
+            onClick={toggle}
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary-foreground px-6 py-3 font-bold text-foreground hover:opacity-90"
+          >
+            {playing ? <Pause className="h-5 w-5" /> : <Play className="h-5 w-5" />}
+            {playing ? "Jeda" : "Putar"}
+          </button>
+        </section>
+        <section className="rounded-3xl bg-primary p-4 lg:order-1">
+          <img src={foto.url} alt="Foto profil" className="mx-auto h-auto w-full rounded-2xl lg:h-[38vh] lg:w-auto" />
+          <p className="mt-3 text-center font-bold text-primary-foreground">Foto</p>
+        </section>
+      </main>
+    </div>
+  );
+}

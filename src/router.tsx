@@ -1,1 +1,18 @@
-aW1wb3J0IHsgUXVlcnlDbGllbnQgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyBjcmVhdGVSb3V0ZXIgfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtcm91dGVyIjsKaW1wb3J0IHsgcm91dGVUcmVlIH0gZnJvbSAiLi9yb3V0ZVRyZWUuZ2VuIjsKCmV4cG9ydCBjb25zdCBnZXRSb3V0ZXIgPSAoKSA9PiB7CiAgLy8gT25lIGNsaWVudCBwZXIgcmVxdWVzdDogYSBtb2R1bGUtbGV2ZWwgUXVlcnlDbGllbnQgbGVha3MgY2FjaGVkIGRhdGEgYmV0d2VlbiBTU1IgcmVxdWVzdHMuCiAgY29uc3QgcXVlcnlDbGllbnQgPSBuZXcgUXVlcnlDbGllbnQoKTsKCiAgY29uc3Qgcm91dGVyID0gY3JlYXRlUm91dGVyKHsKICAgIHJvdXRlVHJlZSwKICAgIGNvbnRleHQ6IHsgcXVlcnlDbGllbnQgfSwKICAgIHNjcm9sbFJlc3RvcmF0aW9uOiB0cnVlLAogICAgLy8gTGV0cyBRdWVyeSBvd24gZnJlc2huZXNzOyBzZXQgY2FjaGluZyBkZWZhdWx0cyBvbiB0aGUgUXVlcnlDbGllbnQsIG5vdCB0aGUgcm91dGVyLgogICAgZGVmYXVsdFByZWxvYWRTdGFsZVRpbWU6IDAsCiAgfSk7CgogIHJldHVybiByb3V0ZXI7Cn07Cg==
+import { QueryClient } from "@tanstack/react-query";
+import { createRouter } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
+
+export const getRouter = () => {
+  // One client per request: a module-level QueryClient leaks cached data between SSR requests.
+  const queryClient = new QueryClient();
+
+  const router = createRouter({
+    routeTree,
+    context: { queryClient },
+    scrollRestoration: true,
+    // Lets Query own freshness; set caching defaults on the QueryClient, not the router.
+    defaultPreloadStaleTime: 0,
+  });
+
+  return router;
+};

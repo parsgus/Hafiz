@@ -1,1 +1,30 @@
-PCEtLSBMT1ZBQkxFOkJFR0lOIC0tPgo+IFshSU1QT1JUQU5UXQo+IFRoaXMgcHJvamVjdCBpcyBjb25uZWN0ZWQgdG8gW0xvdmFibGVdKGh0dHBzOi8vbG92YWJsZS5kZXYpLiBBdm9pZCByZXdyaXRpbmcKPiBwdWJsaXNoZWQgZ2l0IGhpc3Rvcnkg4oCUIGZvcmNlIHB1c2hpbmcsIG9yIHJlYmFzaW5nL2FtZW5kaW5nL3NxdWFzaGluZyBjb21taXRzCj4gdGhhdCBhcmUgYWxyZWFkeSBwdXNoZWQg4oCUIGFzIGl0IHJld3JpdGVzIGhpc3Rvcnkgb24gTG92YWJsZSdzIHNpZGUgYW5kIHRoZQo+IHVzZXIgd2lsbCBsaWtlbHkgbG9zZSB0aGVpciBwcm9qZWN0IGhpc3RvcnkuCj4KPiBDb21taXRzIHlvdSBwdXNoIHRvIHRoZSBjb25uZWN0ZWQgYnJhbmNoIHN5bmMgYmFjayB0byBMb3ZhYmxlIGFuZCBzaG93IHVwIGluCj4gdGhlIGVkaXRvciwgc28ga2VlcCB0aGUgYnJhbmNoIGluIGEgd29ya2luZyBzdGF0ZS4KCiMjIFdoYXQgTG92YWJsZSBtYW5hZ2VzCgpSdWxlcyBvdXRzaWRlIHRoaXMgYmxvY2sgYXJlIHRoZSBwcm9qZWN0J3Mgb3duLiBDaGFuZ2UgdGhlIHBpZWNlcyBiZWxvdyBpbgpMb3ZhYmxlLCBub3QgYnkgaGFuZC4gV2l0aCB0aGUgW0xvdmFibGUgTUNQXShodHRwczovL21jcC5sb3ZhYmxlLmRldikKY29ubmVjdGVkLCBgc2VuZF9tZXNzYWdlYCBhc2tzIExvdmFibGUgdG8gZG8gaXQ7IG90aGVyd2lzZSBhc2sgdGhlIHVzZXIgdG8KdXNlIHRoZSBlZGl0b3IuCgotICoqRGF0YWJhc2UuKiogRG8gbm90IGFkZCBvciBlZGl0IGBzdXBhYmFzZS9taWdyYXRpb25zL2Agb3IgYGRyaXp6bGUvYC4KICBBc2sgTG92YWJsZSB0byBjaGFuZ2UgdGhlIHNjaGVtYS4KLSAqKkdlbmVyYXRlZCBmaWxlcy4qKiBEbyBub3QgZWRpdCBhIGZpbGUgd2hvc2UgaGVhZGVyIHNheXMgaXQgaXMgYXV0b21hdGljYWxseQogIGdlbmVyYXRlZC4KLSAqKkFJIGdhdGV3YXkuKiogS2VlcCBtb2RlbCBjYWxscyBvbiBMb3ZhYmxlJ3MgZ2F0ZXdheSwgYW5kIGtlZXAKICBgTE9WQUJMRV9BUElfS0VZYCBvdXQgb2YgYnJvd3NlciBjb2RlLgotICoqQ29ubmVjdG9ycy4qKiBMb3ZhYmxlIHByb3ZpZGVzIG5hdGl2ZSBjb25uZWN0b3JzLiBgbGlzdF9jb25uZWN0b3JzYCBzaG93cwogIHdoaWNoIGFyZSBlbmFibGVkOyBgYWRkX2Nvbm5lY3RvcmAgb25seSByZXR1cm5zIHRoZSBkYXNoYm9hcmQgbGluay4gV2hlbiBhCiAgY29ubmVjdG9yIGlzIGVuYWJsZWQsIGNhbGxzIGdvIHRocm91Z2ggdGhlIGNvbm5lY3RvciBnYXRld2F5IGFuZCBuZWVkCiAgYExPVkFCTEVfQVBJX0tFWWAuIFdoZW4gTG92YWJsZSBkb2VzIG5vdCBwcm92aWRlIG9uZSwgdXNlcnMgY2FuIGJyaW5nIHRoZWlyCiAgb3duIGtleSBhbmQgc3RvcmUgaXQgaW4gU2VjcmV0cy4KLSAqKlNlY3JldHMuKiogTG92YWJsZSBtYW5hZ2VzIHRoZW0uIERvIG5vdCBwdXQgc2VjcmV0IHZhbHVlcyBpbiB0aGUgcmVwby4KPCEtLSBMT1ZBQkxFOkVORCAtLT4K
+<!-- LOVABLE:BEGIN -->
+> [!IMPORTANT]
+> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
+> published git history — force pushing, or rebasing/amending/squashing commits
+> that are already pushed — as it rewrites history on Lovable's side and the
+> user will likely lose their project history.
+>
+> Commits you push to the connected branch sync back to Lovable and show up in
+> the editor, so keep the branch in a working state.
+
+## What Lovable manages
+
+Rules outside this block are the project's own. Change the pieces below in
+Lovable, not by hand. With the [Lovable MCP](https://mcp.lovable.dev)
+connected, `send_message` asks Lovable to do it; otherwise ask the user to
+use the editor.
+
+- **Database.** Do not add or edit `supabase/migrations/` or `drizzle/`.
+  Ask Lovable to change the schema.
+- **Generated files.** Do not edit a file whose header says it is automatically
+  generated.
+- **AI gateway.** Keep model calls on Lovable's gateway, and keep
+  `LOVABLE_API_KEY` out of browser code.
+- **Connectors.** Lovable provides native connectors. `list_connectors` shows
+  which are enabled; `add_connector` only returns the dashboard link. When a
+  connector is enabled, calls go through the connector gateway and need
+  `LOVABLE_API_KEY`. When Lovable does not provide one, users can bring their
+  own key and store it in Secrets.
+- **Secrets.** Lovable manages them. Do not put secret values in the repo.
+<!-- LOVABLE:END -->

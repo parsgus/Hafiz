@@ -1,1 +1,155 @@
-LyoKICogVGFpbHdpbmQgdjQgZW50cnk6IGNvbmZpZyBsaXZlcyBoZXJlLCB3aXRoIG5vIHRhaWx3aW5kLmNvbmZpZy5qcyBvciBQb3N0Q1NTIHBsdWdpbi4KICogLSBLZWVwIGV2ZXJ5IEBpbXBvcnQgaW4gdGhpcyB0b3AgYmxvY2ssIGFib3ZlIEB0aGVtZSBhbmQgdGhlIHJlc3Qgb2YgdGhlIGZpbGUuIEluc3RhbGwgYW4KICogICBucG0gcGFja2FnZSBiZWZvcmUgQGltcG9ydGluZyBpdHMgQ1NTLiBOZXZlciBAaW1wb3J0IGEgcmVtb3RlIFVSTCAod2ViIGZvbnRzLCBDRE4gQ1NTKTogdGhlCiAqICAgYnVpbGQgcmVzb2x2ZXMgQGltcG9ydCBmcm9tIHRoZSBmaWxlc3lzdGVtLiBMb2FkIHRob3NlIHdpdGggYSA8bGluaz4gaW4gdGhlIGhlYWQoKSBvZgogKiAgIHNyYy9yb3V0ZXMvX19yb290LnRzeCBhbmQgbmFtZSB0aGUgZmFtaWx5IGluIGEgLS1mb250LSogdG9rZW4gaW4gQHRoZW1lIGlubGluZSBiZWxvdy4KICovCkBpbXBvcnQgInRhaWx3aW5kY3NzIiBzb3VyY2Uobm9uZSk7CkBzb3VyY2UgIi4uL3NyYyI7CkBpbXBvcnQgInR3LWFuaW1hdGUtY3NzIjsKCkBjdXN0b20tdmFyaWFudCBkYXJrICgmOmlzKC5kYXJrICopKTsKCi8qCiAqIERlc2lnbiBzeXN0ZW0gZGVmaW5pdGlvbi4KICoKICogVGhlIGRlc2lnbiBsaXZlcyBpbiB0aGlzIGZpbGU6IG9rbGNoIGNvbG9yIHRva2VucyBvbiB0aGUgc2hhZGNuIHZhcmlhYmxlcwogKiAoLS1iYWNrZ3JvdW5kLCAtLWZvcmVncm91bmQsIC0tcHJpbWFyeSwgLS1zZWNvbmRhcnksIC0tbXV0ZWQsIC0tYWNjZW50LCAuLi4pIHBsdXMKICogbmV3IHRva2VucyBhcyBuZWVkZWQsIGZvbnQgdG9rZW5zLCBhbmQgY3VzdG9tIHN0eWxlcyBhbmQgYW5pbWF0aW9ucy4KICoKICogVGhlIEB0aGVtZSBpbmxpbmUgYmxvY2sgbWFwcyBDU1MgY3VzdG9tIHByb3BlcnRpZXMgdG8gVGFpbHdpbmQgdXRpbGl0eQogKiBjbGFzc2VzIChlLmcuIC0tY29sb3ItcHJpbWFyeSAtPiBiZy1wcmltYXJ5LCB0ZXh0LXByaW1hcnkpLgogKgogKiBUaGUgOnJvb3QgYW5kIC5kYXJrIGJsb2NrcyBkZWZpbmUgdGhlIGFjdHVhbCBjb2xvciB2YWx1ZXMgdXNpbmcgb2tsY2guCiAqIEFsbCBjb2xvcnMgTVVTVCB1c2Ugb2tsY2ggZm9ybWF0LgogKgogKiBUbyBhZGQgYSBuZXcgc2VtYW50aWMgY29sb3I6CiAqIDEuIEFkZCB0aGUgdmFyaWFibGUgdG8gOnJvb3QgKGxpZ2h0IHZhbHVlKSBhbmQgLmRhcmsgKGRhcmsgdmFsdWUpCiAqIDIuIFJlZ2lzdGVyIGl0IGluIEB0aGVtZSBpbmxpbmUgYXMgLS1jb2xvci08bmFtZT46IHZhcigtLTxuYW1lPikKICovCgpAdGhlbWUgaW5saW5lIHsKICAtLXJhZGl1cy1zbTogY2FsYyh2YXIoLS1yYWRpdXMpIC0gNHB4KTsKICAtLXJhZGl1cy1tZDogY2FsYyh2YXIoLS1yYWRpdXMpIC0gMnB4KTsKICAtLXJhZGl1cy1sZzogdmFyKC0tcmFkaXVzKTsKICAtLXJhZGl1cy14bDogY2FsYyh2YXIoLS1yYWRpdXMpICsgNHB4KTsKICAtLXJhZGl1cy0yeGw6IGNhbGModmFyKC0tcmFkaXVzKSArIDhweCk7CiAgLS1yYWRpdXMtM3hsOiBjYWxjKHZhcigtLXJhZGl1cykgKyAxMnB4KTsKICAtLXJhZGl1cy00eGw6IGNhbGModmFyKC0tcmFkaXVzKSArIDE2cHgpOwogIC0tY29sb3ItYmFja2dyb3VuZDogdmFyKC0tYmFja2dyb3VuZCk7CiAgLS1jb2xvci1mb3JlZ3JvdW5kOiB2YXIoLS1mb3JlZ3JvdW5kKTsKICAtLWNvbG9yLWNhcmQ6IHZhcigtLWNhcmQpOwogIC0tY29sb3ItY2FyZC1mb3JlZ3JvdW5kOiB2YXIoLS1jYXJkLWZvcmVncm91bmQpOwogIC0tY29sb3ItcG9wb3ZlcjogdmFyKC0tcG9wb3Zlcik7CiAgLS1jb2xvci1wb3BvdmVyLWZvcmVncm91bmQ6IHZhcigtLXBvcG92ZXItZm9yZWdyb3VuZCk7CiAgLS1jb2xvci1wcmltYXJ5OiB2YXIoLS1wcmltYXJ5KTsKICAtLWNvbG9yLXByaW1hcnktZm9yZWdyb3VuZDogdmFyKC0tcHJpbWFyeS1mb3JlZ3JvdW5kKTsKICAtLWNvbG9yLXNlY29uZGFyeTogdmFyKC0tc2Vjb25kYXJ5KTsKICAtLWNvbG9yLXNlY29uZGFyeS1mb3JlZ3JvdW5kOiB2YXIoLS1zZWNvbmRhcnktZm9yZWdyb3VuZCk7CiAgLS1jb2xvci1tdXRlZDogdmFyKC0tbXV0ZWQpOwogIC0tY29sb3ItbXV0ZWQtZm9yZWdyb3VuZDogdmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCk7CiAgLS1jb2xvci1hY2NlbnQ6IHZhcigtLWFjY2VudCk7CiAgLS1jb2xvci1hY2NlbnQtZm9yZWdyb3VuZDogdmFyKC0tYWNjZW50LWZvcmVncm91bmQpOwogIC0tY29sb3ItZGVzdHJ1Y3RpdmU6IHZhcigtLWRlc3RydWN0aXZlKTsKICAtLWNvbG9yLWRlc3RydWN0aXZlLWZvcmVncm91bmQ6IHZhcigtLWRlc3RydWN0aXZlLWZvcmVncm91bmQpOwogIC0tY29sb3ItYm9yZGVyOiB2YXIoLS1ib3JkZXIpOwogIC0tY29sb3ItaW5wdXQ6IHZhcigtLWlucHV0KTsKICAtLWNvbG9yLXJpbmc6IHZhcigtLXJpbmcpOwogIC0tY29sb3ItcmluZy1vZmZzZXQtYmFja2dyb3VuZDogdmFyKC0tYmFja2dyb3VuZCk7CiAgLS1jb2xvci1jaGFydC0xOiB2YXIoLS1jaGFydC0xKTsKICAtLWNvbG9yLWNoYXJ0LTI6IHZhcigtLWNoYXJ0LTIpOwogIC0tY29sb3ItY2hhcnQtMzogdmFyKC0tY2hhcnQtMyk7CiAgLS1jb2xvci1jaGFydC00OiB2YXIoLS1jaGFydC00KTsKICAtLWNvbG9yLWNoYXJ0LTU6IHZhcigtLWNoYXJ0LTUpOwogIC0tY29sb3Itc2lkZWJhcjogdmFyKC0tc2lkZWJhcik7CiAgLS1jb2xvci1zaWRlYmFyLWZvcmVncm91bmQ6IHZhcigtLXNpZGViYXItZm9yZWdyb3VuZCk7CiAgLS1jb2xvci1zaWRlYmFyLXByaW1hcnk6IHZhcigtLXNpZGViYXItcHJpbWFyeSk7CiAgLS1jb2xvci1zaWRlYmFyLXByaW1hcnktZm9yZWdyb3VuZDogdmFyKC0tc2lkZWJhci1wcmltYXJ5LWZvcmVncm91bmQpOwogIC0tY29sb3Itc2lkZWJhci1hY2NlbnQ6IHZhcigtLXNpZGViYXItYWNjZW50KTsKICAtLWNvbG9yLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQ6IHZhcigtLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQpOwogIC0tY29sb3Itc2lkZWJhci1ib3JkZXI6IHZhcigtLXNpZGViYXItYm9yZGVyKTsKICAtLWNvbG9yLXNpZGViYXItcmluZzogdmFyKC0tc2lkZWJhci1yaW5nKTsKfQoKOnJvb3QgewogIC0tcmFkaXVzOiAwLjYyNXJlbTsKICAtLWJhY2tncm91bmQ6IG9rbGNoKDEgMCAwKTsKICAtLWZvcmVncm91bmQ6IG9rbGNoKDAuMTI5IDAuMDQyIDI2NC42OTUpOwogIC0tY2FyZDogb2tsY2goMSAwIDApOwogIC0tY2FyZC1mb3JlZ3JvdW5kOiBva2xjaCgwLjEyOSAwLjA0MiAyNjQuNjk1KTsKICAtLXBvcG92ZXI6IG9rbGNoKDEgMCAwKTsKICAtLXBvcG92ZXItZm9yZWdyb3VuZDogb2tsY2goMC4xMjkgMC4wNDIgMjY0LjY5NSk7CiAgLS1wcmltYXJ5OiBva2xjaCg1NiUgMC4yOSAzMDcpOwogIC0tcHJpbWFyeS1mb3JlZ3JvdW5kOiBva2xjaCgxIDAgMCk7CiAgLS1zZWNvbmRhcnk6IG9rbGNoKDAuOTY4IDAuMDA3IDI0Ny44OTYpOwogIC0tc2Vjb25kYXJ5LWZvcmVncm91bmQ6IG9rbGNoKDAuMjA4IDAuMDQyIDI2NS43NTUpOwogIC0tbXV0ZWQ6IG9rbGNoKDAuOTY4IDAuMDA3IDI0Ny44OTYpOwogIC0tbXV0ZWQtZm9yZWdyb3VuZDogb2tsY2goMC41NTQgMC4wNDYgMjU3LjQxNyk7CiAgLS1hY2NlbnQ6IG9rbGNoKDAuOTY4IDAuMDA3IDI0Ny44OTYpOwogIC0tYWNjZW50LWZvcmVncm91bmQ6IG9rbGNoKDAuMjA4IDAuMDQyIDI2NS43NTUpOwogIC0tZGVzdHJ1Y3RpdmU6IG9rbGNoKDAuNTc3IDAuMjQ1IDI3LjMyNSk7CiAgLS1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kOiBva2xjaCgwLjk4NCAwLjAwMyAyNDcuODU4KTsKICAtLWJvcmRlcjogb2tsY2goMC45MjkgMC4wMTMgMjU1LjUwOCk7CiAgLS1pbnB1dDogb2tsY2goMC45MjkgMC4wMTMgMjU1LjUwOCk7CiAgLS1yaW5nOiBva2xjaCgwLjcwNCAwLjA0IDI1Ni43ODgpOwogIC0tY2hhcnQtMTogb2tsY2goMC42NDYgMC4yMjIgNDEuMTE2KTsKICAtLWNoYXJ0LTI6IG9rbGNoKDAuNiAwLjExOCAxODQuNzA0KTsKICAtLWNoYXJ0LTM6IG9rbGNoKDAuMzk4IDAuMDcgMjI3LjM5Mik7CiAgLS1jaGFydC00OiBva2xjaCgwLjgyOCAwLjE4OSA4NC40MjkpOwogIC0tY2hhcnQtNTogb2tsY2goMC43NjkgMC4xODggNzAuMDgpOwogIC0tc2lkZWJhcjogb2tsY2goMC45ODQgMC4wMDMgMjQ3Ljg1OCk7CiAgLS1zaWRlYmFyLWZvcmVncm91bmQ6IG9rbGNoKDAuMTI5IDAuMDQyIDI2NC42OTUpOwogIC0tc2lkZWJhci1wcmltYXJ5OiBva2xjaCgwLjIwOCAwLjA0MiAyNjUuNzU1KTsKICAtLXNpZGViYXItcHJpbWFyeS1mb3JlZ3JvdW5kOiBva2xjaCgwLjk4NCAwLjAwMyAyNDcuODU4KTsKICAtLXNpZGViYXItYWNjZW50OiBva2xjaCgwLjk2OCAwLjAwNyAyNDcuODk2KTsKICAtLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQ6IG9rbGNoKDAuMjA4IDAuMDQyIDI2NS43NTUpOwogIC0tc2lkZWJhci1ib3JkZXI6IG9rbGNoKDAuOTI5IDAuMDEzIDI1NS41MDgpOwogIC0tc2lkZWJhci1yaW5nOiBva2xjaCgwLjcwNCAwLjA0IDI1Ni43ODgpOwp9CgouZGFyayB7CiAgLS1iYWNrZ3JvdW5kOiBva2xjaCgwLjEyOSAwLjA0MiAyNjQuNjk1KTsKICAtLWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tY2FyZDogb2tsY2goMC4yMDggMC4wNDIgMjY1Ljc1NSk7CiAgLS1jYXJkLWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tcG9wb3Zlcjogb2tsY2goMC4yMDggMC4wNDIgMjY1Ljc1NSk7CiAgLS1wb3BvdmVyLWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tcHJpbWFyeTogb2tsY2goMC45MjkgMC4wMTMgMjU1LjUwOCk7CiAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IG9rbGNoKDAuMjA4IDAuMDQyIDI2NS43NTUpOwogIC0tc2Vjb25kYXJ5OiBva2xjaCgwLjI3OSAwLjA0MSAyNjAuMDMxKTsKICAtLXNlY29uZGFyeS1mb3JlZ3JvdW5kOiBva2xjaCgwLjk4NCAwLjAwMyAyNDcuODU4KTsKICAtLW11dGVkOiBva2xjaCgwLjI3OSAwLjA0MSAyNjAuMDMxKTsKICAtLW11dGVkLWZvcmVncm91bmQ6IG9rbGNoKDAuNzA0IDAuMDQgMjU2Ljc4OCk7CiAgLS1hY2NlbnQ6IG9rbGNoKDAuMjc5IDAuMDQxIDI2MC4wMzEpOwogIC0tYWNjZW50LWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tZGVzdHJ1Y3RpdmU6IG9rbGNoKDAuNzA0IDAuMTkxIDIyLjIxNik7CiAgLS1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kOiBva2xjaCgwLjk4NCAwLjAwMyAyNDcuODU4KTsKICAtLWJvcmRlcjogb2tsY2goMSAwIDAgLyAxMCUpOwogIC0taW5wdXQ6IG9rbGNoKDEgMCAwIC8gMTUlKTsKICAtLXJpbmc6IG9rbGNoKDAuNTUxIDAuMDI3IDI2NC4zNjQpOwogIC0tY2hhcnQtMTogb2tsY2goMC40ODggMC4yNDMgMjY0LjM3Nik7CiAgLS1jaGFydC0yOiBva2xjaCgwLjY5NiAwLjE3IDE2Mi40OCk7CiAgLS1jaGFydC0zOiBva2xjaCgwLjc2OSAwLjE4OCA3MC4wOCk7CiAgLS1jaGFydC00OiBva2xjaCgwLjYyNyAwLjI2NSAzMDMuOSk7CiAgLS1jaGFydC01OiBva2xjaCgwLjY0NSAwLjI0NiAxNi40MzkpOwogIC0tc2lkZWJhcjogb2tsY2goMC4yMDggMC4wNDIgMjY1Ljc1NSk7CiAgLS1zaWRlYmFyLWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tc2lkZWJhci1wcmltYXJ5OiBva2xjaCgwLjQ4OCAwLjI0MyAyNjQuMzc2KTsKICAtLXNpZGViYXItcHJpbWFyeS1mb3JlZ3JvdW5kOiBva2xjaCgwLjk4NCAwLjAwMyAyNDcuODU4KTsKICAtLXNpZGViYXItYWNjZW50OiBva2xjaCgwLjI3OSAwLjA0MSAyNjAuMDMxKTsKICAtLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQ6IG9rbGNoKDAuOTg0IDAuMDAzIDI0Ny44NTgpOwogIC0tc2lkZWJhci1ib3JkZXI6IG9rbGNoKDEgMCAwIC8gMTAlKTsKICAtLXNpZGViYXItcmluZzogb2tsY2goMC41NTEgMC4wMjcgMjY0LjM2NCk7Cn0KCkBsYXllciBiYXNlIHsKICAqIHsKICAgIGJvcmRlci1jb2xvcjogdmFyKC0tY29sb3ItYm9yZGVyKTsKICB9CgogIGJvZHkgewogICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItYmFja2dyb3VuZCk7CiAgICBjb2xvcjogdmFyKC0tY29sb3ItZm9yZWdyb3VuZCk7CiAgfQp9Cg==
+/*
+ * Tailwind v4 entry: config lives here, with no tailwind.config.js or PostCSS plugin.
+ * - Keep every @import in this top block, above @theme and the rest of the file. Install an
+ *   npm package before @importing its CSS. Never @import a remote URL (web fonts, CDN CSS): the
+ *   build resolves @import from the filesystem. Load those with a <link> in the head() of
+ *   src/routes/__root.tsx and name the family in a --font-* token in @theme inline below.
+ */
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * The design lives in this file: oklch color tokens on the shadcn variables
+ * (--background, --foreground, --primary, --secondary, --muted, --accent, ...) plus
+ * new tokens as needed, font tokens, and custom styles and animations.
+ *
+ * The @theme inline block maps CSS custom properties to Tailwind utility
+ * classes (e.g. --color-primary -> bg-primary, text-primary).
+ *
+ * The :root and .dark blocks define the actual color values using oklch.
+ * All colors MUST use oklch format.
+ *
+ * To add a new semantic color:
+ * 1. Add the variable to :root (light value) and .dark (dark value)
+ * 2. Register it in @theme inline as --color-<name>: var(--<name>)
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.129 0.042 264.695);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.129 0.042 264.695);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.129 0.042 264.695);
+  --primary: oklch(56% 0.29 307);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.968 0.007 247.896);
+  --secondary-foreground: oklch(0.208 0.042 265.755);
+  --muted: oklch(0.968 0.007 247.896);
+  --muted-foreground: oklch(0.554 0.046 257.417);
+  --accent: oklch(0.968 0.007 247.896);
+  --accent-foreground: oklch(0.208 0.042 265.755);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.929 0.013 255.508);
+  --input: oklch(0.929 0.013 255.508);
+  --ring: oklch(0.704 0.04 256.788);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.984 0.003 247.858);
+  --sidebar-foreground: oklch(0.129 0.042 264.695);
+  --sidebar-primary: oklch(0.208 0.042 265.755);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.968 0.007 247.896);
+  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
+  --sidebar-border: oklch(0.929 0.013 255.508);
+  --sidebar-ring: oklch(0.704 0.04 256.788);
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.984 0.003 247.858);
+  --card: oklch(0.208 0.042 265.755);
+  --card-foreground: oklch(0.984 0.003 247.858);
+  --popover: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.929 0.013 255.508);
+  --primary-foreground: oklch(0.208 0.042 265.755);
+  --secondary: oklch(0.279 0.041 260.031);
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --muted: oklch(0.279 0.041 260.031);
+  --muted-foreground: oklch(0.704 0.04 256.788);
+  --accent: oklch(0.279 0.041 260.031);
+  --accent-foreground: oklch(0.984 0.003 247.858);
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.208 0.042 265.755);
+  --sidebar-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-accent: oklch(0.279 0.041 260.031);
+  --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.551 0.027 264.364);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+}
