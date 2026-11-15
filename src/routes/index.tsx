@@ -1,16 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { Play, Pause } from "lucide-react";
-import foto from "@/assets/foto-profil.jpg.asset.json";
-import musik from "@/assets/musik.m4a.asset.json";
+const foto = { url: "/foto-profil.jpg" };
+const musik = { url: "/musik.m4a" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Member ΣΛ" },
-      { name: "description", content: "Seorang editor mobile yang bikin compositing manga edit." },
-      { property: "og:title", content: "Member ΣΛ" },
-      { property: "og:description", content: "Seorang editor mobile yang bikin compositing manga edit." },
+      { title: "Website Khusus member" },
+      { name: "description", content: "Hafiz h nya apa, hai sayang" },
+      { property: "og:title", content: "Website Khusus member" },
+      { property: "og:description", content: "Hafiz h nya apa, hai sayang" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
